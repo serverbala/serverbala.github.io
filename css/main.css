@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+header, section, footer {
+	padding: 1em;
+}
+
+.tag-line {
+	font-size: 24px;
+}
+
+header {
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	color:#FFFFFF;
+}
+
+header a:link,
+header a:visited {
+	color: #CCCCCC;
+	text-decoration: none;
+	padding-left:1em;
+	padding-right:1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+header a:hover,
+header a:focus {
+	text-decoration: underline;
+	color: #FFFFFF;
+	background-color: #CC0000;
+}
+
+#about, #projects {
+	background-color: #F5D74C;
+	overflow: auto;
+}
+
+footer {
+	background-color: #DB2425;
+}
+
+#education, #contact {
+	background-color: #A45D1B;
+}
+
+#about img {
+	max-height: 400px;
+	float: left;
+	margin-right:1em;
+	opacity: 1;
+}
+
+#about img:hover {
+	opacity: 0.7;
+}
+
+#education {
+	clear: both;
+}
+
+
